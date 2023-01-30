@@ -1,0 +1,67 @@
+body
+{
+    animation-name: body1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+    font-family: 'Special Elite', cursive;
+    
+}
+@keyframes body1 
+{
+    0%{background:  rgb(243, 135, 135);}
+    20%{background:  rgb(208, 192, 236);}
+    40%{background:  rgb(237, 238, 166);}
+    60%{background:  rgb(94, 234, 30);}
+    80%{background:  rgb(14, 235, 216);}
+    100%{background:  rgb(239, 169, 216);}
+  
+}
+  
+canvas
+{
+    animation-name: canvas1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;  
+}
+@keyframes canvas1 
+{
+
+    from {box-shadow: 1px 1px 58px rgb(232, 251, 23);}
+    to {box-shadow: 1px 1px 58px rgb(183, 241, 10);}
+  
+}
+h1
+  {
+    animation-name: example2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+    margin: 0;
+    background: white;
+    color: #ce2700; 
+  }
+  @keyframes example2 
+  {
+      from {background:  rgb(187, 184, 248);}
+      to {background:  rgb(9, 205, 244);}
+    
+  }
+  p{
+   padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(8, 40, 246);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .copy_right_footer {
+   position: fixed;
+   color: #6c757d;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: #f5f5f5;
+   line-height: 3;
+   text-align: center;
+   text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
